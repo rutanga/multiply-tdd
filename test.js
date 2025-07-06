@@ -20,4 +20,7 @@ describe('multiply function', function () {
         assert.equal(multiply(4, 4), 16)
     })
 
+    it('should multiply 5 * 6 = 30', function () {
+        assert.equal(multiply(5, 6), 30)
+    })
 })
