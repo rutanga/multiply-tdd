@@ -12,4 +12,8 @@ describe('multiply function', function () {
         assert.equal(multiply(2, 2), 4);
     });
 
+    it('should multiply 3 * 3 = 9', function () {
+        assert.equal(multiply(3, 3), 9);
+    })
+
 })
