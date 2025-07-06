@@ -7,7 +7,7 @@ describe('multiply function', function () {
 
     });
 
-    //adding another test for a function that doesn't return 1
+    //adding other tests for a functions that doesn't return 1
     it('should multiply 2 * 2 = 4', function () {
         assert.equal(multiply(2, 2), 4);
     });
@@ -23,4 +23,13 @@ describe('multiply function', function () {
     it('should multiply 5 * 6 = 30', function () {
         assert.equal(multiply(5, 6), 30)
     })
+
+    it('should multiply 5 * 6 = 30', function () {
+        assert.equal(multiply(5, 6), 30)
+    })
+
+    it('should multiply 5 * 6 = 30', function () {
+        assert.equal(multiply(5, 6), 30)
+    })
+
 })
