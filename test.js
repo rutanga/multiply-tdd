@@ -24,12 +24,8 @@ describe('multiply function', function () {
         assert.equal(multiply(5, 6), 30)
     })
 
-    it('should multiply 5 * 6 = 30', function () {
-        assert.equal(multiply(5, 6), 30)
-    })
-
-    it('should multiply 5 * 6 = 30', function () {
-        assert.equal(multiply(5, 6), 30)
+    it('should multiply 23 * 45 = 1035', function () {
+        assert.equal(multiply(23, 45), 1035)
     })
 
 })
